@@ -1,12 +1,10 @@
-package com.gausslab.gserver.handler;
+package com.gausslab.chatserver.handler;
 
-import com.gausslab.gserver.model.ChatMessage;
-import com.gausslab.gserver.service.ChatMessageService;
+import com.gausslab.chatserver.model.ChatMessage;
+import com.gausslab.chatserver.service.ChatMessageService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;

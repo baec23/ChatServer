@@ -1,7 +1,7 @@
-package com.gausslab.gserver.controller;
+package com.gausslab.chatserver.controller;
 
-import com.gausslab.gserver.model.ChatMessage;
-import com.gausslab.gserver.service.ChatMessageService;
+import com.gausslab.chatserver.model.ChatMessage;
+import com.gausslab.chatserver.service.ChatMessageService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

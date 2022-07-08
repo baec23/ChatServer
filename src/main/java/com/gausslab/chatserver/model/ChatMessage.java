@@ -1,4 +1,4 @@
-package com.gausslab.gserver.model;
+package com.gausslab.chatserver.model;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;

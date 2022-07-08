@@ -1,6 +1,6 @@
-package com.gausslab.gserver.repository;
+package com.gausslab.chatserver.repository;
 
-import com.gausslab.gserver.model.ChatMessage;
+import com.gausslab.chatserver.model.ChatMessage;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

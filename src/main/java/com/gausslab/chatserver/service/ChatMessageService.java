@@ -1,7 +1,7 @@
-package com.gausslab.gserver.service;
+package com.gausslab.chatserver.service;
 
-import com.gausslab.gserver.model.ChatMessage;
-import com.gausslab.gserver.repository.ChatMessageRepository;
+import com.gausslab.chatserver.model.ChatMessage;
+import com.gausslab.chatserver.repository.ChatMessageRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
